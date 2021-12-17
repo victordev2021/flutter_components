@@ -3,6 +3,8 @@ import 'package:components/src/pages/avatar_page.dart';
 import 'package:components/src/pages/card_page.dart';
 import 'package:components/src/pages/home.dart';
 import 'package:components/src/pages/input_page.dart';
+import 'package:components/src/pages/list_page.dart';
+import 'package:components/src/pages/slider_page.dart';
 import 'package:flutter/material.dart';
 
 Map<String, WidgetBuilder> getRoutes() {
@@ -13,5 +15,7 @@ Map<String, WidgetBuilder> getRoutes() {
     'avatar': (BuildContext) => AvatarPage(),
     'card': (BuildContext) => CardPage(),
     'inputs': (BuildContext) => InputPage(),
+    'slider': (BuildContext) => SliderPage(),
+    'list': (BuildContext) => ListPage(),
   };
 }

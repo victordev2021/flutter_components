@@ -115,7 +115,7 @@ class _InputPageState extends State<InputPage> {
       children: <Widget>[
         Icon(Icons.select_all),
         SizedBox(
-          width: 30.0,
+          width: 10.0,
         ),
         Expanded(
           child: DropdownButton<String>(
